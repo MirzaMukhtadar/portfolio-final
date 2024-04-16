@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  .header-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1200px;
+    gap: 20px;
+    .img-container {
+      img {
+        width: 380px;
+        height: 380px;
+        object-fit: cover;
+        border-radius: 50%;
+      }
+    }
+    .text-container {
+      .heading-text {
+        h3 {
+          font-size: 100px;
+        }
+      }
+      .para-text {
+      }
+      .btn-container {
+        margin-top: 10px;
+        button {
+          border-radius: 50%;
+          height: 150px;
+          width: 150px;
+        }
+      }
+    }
+  }
+}
