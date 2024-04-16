@@ -1,6 +1,7 @@
 import React from "react";
 import "./header.scss";
 import meImg from "../../assets/img/me.png";
+import { animate, motion } from "framer-motion";
 
 const Header = () => {
   return (
@@ -25,9 +26,30 @@ const Header = () => {
             </p>
           </div>
           <div className="btn-container">
-            <button>Resume</button>
-            <button>Projects</button>
-            <button>Contact</button>
+            <motion.button
+              whileHover={{
+                scale: 1.1,
+                transition: { duration: 1 },
+              }}
+            >
+              Resume
+            </motion.button>
+            <motion.button
+              whileHover={{
+                scale: 1.1,
+                transition: { duration: 1 },
+              }}
+            >
+              Projects
+            </motion.button>
+            <motion.button
+              whileHover={{
+                scale: 1.1,
+                transition: { duration: 1 },
+              }}
+            >
+              Contact
+            </motion.button>
           </div>
         </div>
       </div>
