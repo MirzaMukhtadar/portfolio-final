@@ -9,16 +9,16 @@ const NavigationBar = () => {
       <Sidebar />
       <div className="wrapper">
         <div className="logo">
-          <div className="circle"></div> Mirza Mukhtadar
+          <div className="circle"></div> <Link to="/">Mirza Mukhtadar</Link>
         </div>
         <div className="social">
-          <Link to="">
+          <Link to="/resume">
             <p>Resume</p>
           </Link>
-          <Link to="">
+          <Link to="/projects">
             <p>Projects</p>
           </Link>
-          <Link to="">
+          <Link to="/contact">
             <p>Contact</p>
           </Link>
         </div>
