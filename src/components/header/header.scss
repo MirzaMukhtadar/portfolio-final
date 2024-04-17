@@ -11,8 +11,8 @@
     gap: 20px;
     .img-container {
       img {
-        width: 380px;
-        height: 380px;
+        width: 350px;
+        height: 350px;
         object-fit: cover;
         border-radius: 50%;
       }
@@ -27,11 +27,21 @@
       }
       .btn-container {
         margin-top: 10px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
         button {
           border-radius: 50%;
           height: 150px;
           width: 150px;
           cursor: pointer;
+          border: none;
+        }
+        button:hover {
+          background-color: #3e8e41;
+          color: white;
+          opacity: 1;
+          transition: ease-in-out;
         }
       }
     }
