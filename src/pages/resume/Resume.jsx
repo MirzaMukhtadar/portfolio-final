@@ -10,8 +10,9 @@ const Resume = () => {
         <div className="all-exp">
           <div className="exp">
             <p>2024-present</p>
-            <h5>Editor</h5>
+            <p>2024-present</p>
           </div>
+
           <div className="exp">
             <p>2024-present</p>
             <h5>Editor</h5>
